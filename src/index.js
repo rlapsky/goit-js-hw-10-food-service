@@ -12,7 +12,6 @@ const ref = {
 }
 const markup = menuTemplate(menu);
 ref.menu.insertAdjacentHTML('afterbegin', markup)
-console.log(ref.menu);
 const changeTheme = function (e){
     if (e.target.checked){
         
